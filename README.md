@@ -46,11 +46,13 @@ Used to compute product similarity from real order history data.
 ---
 
 ## 💡 Example Output
-Because you liked: Laptop
-You might also like:
-1. Tablet       | Similarity Score: 0.97
-2. Monitor      | Similarity Score: 0.95
-3. Phone        | Similarity Score: 0.91
+
+Because you liked: Laptop  You might also like:
+1. Monitor | Similarity Score: 0.97
+2. Printer | Similarity Score: 0.96
+3. Tablet  | Similarity Score: 0.90
+
+> **Note:** Similarity is computed from sales patterns (price, quantity, and order frequency), not product type.
 
 ---
 
